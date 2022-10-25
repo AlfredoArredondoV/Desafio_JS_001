@@ -17,6 +17,6 @@ boton.addEventListener("click", () => {
     // colour.textContent = color.value;
     colour.style.backgroundColor = color.value;
     total.textContent = price * cantidad.value;
-    document.getElementById("laptop").src = "/assets/img/laptop_"+color.value+"_frente.webp";
+    document.getElementById("laptop").src = "assets/img/laptop_"+color.value+"_frente.webp";
 });
 
