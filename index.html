@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="dist/css/bootstrap.css"> -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <div class="card" style="width: 18rem;">
+                <img id="laptop" src="assets/img/laptop_black_frente.webp" class="card-img-top" alt="Imagen Latop Lenovo Negro vista de Frente">
+                <div class="card-body">
+                    <h5 class="card-title">Laptop GAMER Lenovo</h5>
+                    <p>Cantidad : <span id="amount"></span></p>
+                    <p>Color : <span id="colour"></span></p>
+                    <p>Total : <span id="total"></span></p>
+                </div>
+                <div class="card-body">
+                    <p>Ingrese Cantidad:</p>
+                    <input id="cantidad" type="text" class="form-control">
+                    <p>Seleccione el color</p>
+                    <select id="color" class="form-select" aria-label="Seleecionar Color de Laptop">
+                        <option selected>Seleccione Color</option>
+                        <option value="black">Negro</option>
+                        <option value="white">Blanco</option>
+                        <option value="green">Verde</option>
+                    </select>
+                    <p id="price">Precio: $989.559</p>
+                    <button id="boton" type="button" class="btn btn-primary">Calcular</button>
+                </div>
+            </div>
+        </main>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
