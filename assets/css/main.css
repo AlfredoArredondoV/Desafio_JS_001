@@ -11054,6 +11054,14 @@ main {
   background-color: black;
 }
 
+#colour {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 1px black;
+}
+
 .btn-black {
   margin: 1rem;
 }/*# sourceMappingURL=main.css.map */
