@@ -16,5 +16,5 @@ boton.addEventListener("click", () => {
     amount.textContent = cantidad.value;
     colour.style.backgroundColor = color.value;
     total.textContent = Number(priceValue.textContent) * Number(cantidad.value);
-    document.getElementById("laptop").src = "https://alfredoarredondov.github.io/Desafio_JS_001/assets/img/laptop_"+color.value+"_frente.webp";
+    document.getElementById("laptop").src = "https://alfredoarredondov.github.io/Desafio_JS_001/assets/img/laptop_"+color.value+"_frente.webp"; // puse solo cambiar imagen, pero no me funciono en github, asi que tuve que colocar la url completa.
 });
