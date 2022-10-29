@@ -10,7 +10,6 @@ $warning: #ffc107 !default;
 $danger: #dc3545 !default;
 $light: #f8f9fa !default;
 $dark: #212529 !default;
-$purple: #cf649a;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme.colors-map
@@ -23,7 +22,6 @@ $theme-colors: (
 	"danger": $danger,
 	"light": $light,
 	"dark": $dark,
-	"purple": $purple
 ) !default;
 // scss-docs-end theme.colors-map
 
